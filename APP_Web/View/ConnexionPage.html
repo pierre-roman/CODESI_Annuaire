@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang='fr'>
+<head>
+    <meta charset='UTF-8'>
+    <title>Connexion</title>
+</head>
+<body>
+    <h1>Vous devez être connecté pour accèder à l'annuaire</h1>
+    <h2>Connexion</h2>
+    <form>
+        <label>mail :</label><input type='text' id='connexionMail'>
+        <label>Mot de passe :</label><input type='password' id='connexionMDP'>
+        <button type='button' id='connexionButton'>Connexion !!!</button>
+    </form>
+    <div id='errorConnexion'></div>
+
+    <h1>Ou</h1>
+    <h2>Inscription</h2>
+    <form>
+        <label>adresse mail :</label><input type='text' id='inscriptionMail'>
+        <label>mot de passe :</label><input type='password' id='inscriptionMDP'>
+        <label>numero de telephone :</label><input type='text' id='inscriptionTel'>
+        <label>Nom :</label><input type='text' id='inscriptionNom'>
+        <label>Prenom :</label><input type='text' id='inscriptionPrenom'>
+        <button type='button' id='inscriptionButton'>Inscription !!!</button>
+    </form>
+    <div id='errorInscription'></div>
+
+    <script src='Jquery/jquery-3.3.1.js'></script>
+    <script src='Ajax/AjaxTreatDeconnexion.js'></script>
+    <script src='Ajax/AjaxTreatConnexionPage.js'></script>
+</body>
+</html>

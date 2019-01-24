@@ -1,0 +1,5 @@
+site_name: Annuaire
+nav:
+  - Home: index.md
+  - API: api.md
+theme: cinder

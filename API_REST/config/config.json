@@ -1,0 +1,9 @@
+{
+  "development": {
+    "username": "root",
+    "password": "maBase",
+    "database": "BDD_ServerRest_PierreROMAN",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
